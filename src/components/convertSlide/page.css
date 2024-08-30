@@ -1,0 +1,31 @@
+.swiper-slide {
+    width: 500px !important;
+    /* Thay đổi giá trị này theo nhu cầu */
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+    background-color: #929191;
+    border-radius: 50%;
+
+
+    /* Màu nền */
+    color: white;
+    /* Màu chữ (mũi tên) */
+    border-radius: 1rem;
+    /* Bo góc cho nút */
+    padding: 2rem 2rem;
+}
+
+.swiper-button-next:hover,
+.swiper-button-prev:hover {
+    background-color: #191919;
+    /* Màu nền khi hover */
+}
+
+.swiper-button-next::after,
+.swiper-button-prev::after {
+    color: #ffffff;
+    font-size: 1rem;
+    /* Màu của mũi tên */
+}
